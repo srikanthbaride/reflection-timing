@@ -73,7 +73,7 @@ At the next step, the memory biases the policy against repeated mistakes.
 \subsection{Reflection Modes}
 We compare:
 \begin{enumerate}
-  \item \textbf{No reflection:} Agent uses a greedy heuristic with $\epsilon$-exploration and no memory.\n  \item \textbf{Per-step reflection:} Agent reflects after each move.
+  \item \textbf{No reflection:} Agent uses a greedy heuristic with $\epsilon$-exploration and no memory.  \item \textbf{Per-step reflection:} Agent reflects after each move.
   \item \textbf{Failure-only reflection:} Agent reflects only after failing an episode.
   \item \textbf{Success-only reflection:} Agent reflects only after successful completion.
 \end{enumerate}
@@ -122,10 +122,10 @@ while using far fewer reflection events.}
 \toprule
 Mode & Success Rate & Mean Steps & Mean Reflections & Mean Return \\
 \midrule
-\\texttt{failure\_only} & 1.0 & 8.85 & 0.0 & 0.922 \\
-\\texttt{no\_reflection} & 1.0 & 8.9 & 0.0 & 0.921 \\
-\\texttt{per\_step} & 1.0 & 9.033 & 9.033 & 0.92 \\
-\\texttt{success\_only} & 1.0 & 8.833 & 1.0 & 0.922 \\
+failure_only & 1.0 & 8.85 & 0.0 & 0.922 \\
+no_reflection & 1.0 & 8.9 & 0.0 & 0.921 \\
+per_step & 1.0 & 9.033 & 9.033 & 0.92 \\
+success_only & 1.0 & 8.833 & 1.0 & 0.922 \\
 \bottomrule
 \end{tabular}
 \end{table}
