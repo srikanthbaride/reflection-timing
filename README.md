@@ -1,5 +1,5 @@
 
-[![Build LaTeX PDF](https://github.com/<yourname>/<repo>/actions/workflows/latex.yml/badge.svg)](https://github.com/<yourname>/<repo>/actions/workflows/latex.yml)
+[![Build LaTeX PDF](https://github.com/srikanthbaride/reflection-timing/actions/workflows/latex.yml/badge.svg)](https://github.com/srikanthbaride/reflection-timing/actions/workflows/latex.yml)
 
 > Replace `<yourname>/<repo>` with your actual GitHub org/repo after pushing.
 
