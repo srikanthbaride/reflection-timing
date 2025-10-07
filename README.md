@@ -1,7 +1,6 @@
 
 [![Build LaTeX PDF](https://github.com/srikanthbaride/reflection-timing/actions/workflows/latex.yml/badge.svg)](https://github.com/srikanthbaride/reflection-timing/actions/workflows/latex.yml)
 
-> Replace `<yourname>/<repo>` with your actual GitHub org/repo after pushing.
 
 # SRPI – Self‑Reflective Policy Improvement (Repo Scaffold)
 
