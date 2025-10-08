@@ -1,5 +1,8 @@
 
 [![Build LaTeX PDF](https://github.com/srikanthbaride/reflection-timing/actions/workflows/latex.yml/badge.svg)](https://github.com/srikanthbaride/reflection-timing/actions/workflows/latex.yml)
+[![Paper](https://img.shields.io/badge/Paper-PDF-blue)](https://github.com/srikanthbaride/reflection-timing/blob/main/paper_reflection_timing.pdf)
+
+> 🔄 The paper is auto-compiled from LaTeX via GitHub Actions using [`xu-cheng/latex-action`](https://github.com/xu-cheng/latex-action).
 
 
 # SRPI – Self‑Reflective Policy Improvement (Repo Scaffold)
