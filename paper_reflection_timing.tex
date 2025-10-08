@@ -4,6 +4,8 @@
 \usepackage{amsmath,amssymb,graphicx,booktabs,url}
 \usepackage[font=small]{caption}
 \usepackage{subcaption}
+\usepackage[caption=false,font=footnotesize]{subfig}
+
 
 \title{Reflect Once, Act Twice: On the Timing of Reflection in Agentic AI Systems}
 
@@ -116,16 +118,16 @@ while using far fewer reflection events.}
 
 \begin{table}[t]
 \centering
-\caption{Summary over 60 episodes per mode. Failure-only and success-only match the success of per-step and no-reflection while using far fewer reflection events.}
-\label{tab:summary}
+\caption{Ablations of reflection timing.}
+\label{tab:ablation}
 \begin{tabular}{lcccc}
 \toprule
-Mode & Success Rate & Mean Steps & Mean Reflections & Mean Return \\
+Setting & Success $\uparrow$ & Efficiency $\uparrow$ & Steps $\downarrow$ & Reward $\uparrow$ \\
 \midrule
-failure_only & 1.0 & 8.85 & 0.0 & 0.922 \\
-no_reflection & 1.0 & 8.9 & 0.0 & 0.921 \\
-per_step & 1.0 & 9.033 & 9.033 & 0.92 \\
-success_only & 1.0 & 8.833 & 1.0 & 0.922 \\
+\texttt{failure\_only}  & 1.0 & 8.85  & 0.0   & 0.922 \\
+\texttt{no\_reflection} & 1.0 & 8.90  & 0.0   & 0.921 \\
+\texttt{per\_step}      & 1.0 & 9.033 & 9.033 & 0.920 \\
+\texttt{success\_only}  & 1.0 & 8.833 & 1.0   & 0.922 \\
 \bottomrule
 \end{tabular}
 \end{table}
